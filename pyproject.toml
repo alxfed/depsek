@@ -2,7 +2,7 @@
 requires = ["setuptools>=67.0"]
 build-backend = "setuptools.build_meta"
 [project]
-name = "package-name"
+name = "depsek"
 version = "0.0.1"
 authors = [
     {name="Machina Ratiocinatrix", email="machina.ratio@gmail.com"},
@@ -17,15 +17,14 @@ classifiers=[
         "Operating System :: OS Independent",
 ]
 
-keywords = ["package-name"]
+keywords = ["depsek"]
 
 dependencies = [
     "pyyaml == 6.0.3"
 ]
 
 [project.scripts]
-package-name = "package_name.cli:run"
+depsek = "depsek.cli:run"
 
 [project.urls]
-"Homepage" = "https://github.com/org_name/package-name"
-"Bug Tracker" = "https://github.com/org_name/package-name/issues"
+"Homepage" = "https://github.com/alxfed/depsek"

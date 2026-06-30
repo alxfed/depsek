@@ -1,9 +1,9 @@
-# Package name
+# Library without dependencies
 <pre>
-  pip install package-name
+  pip install depsek
 </pre>
 Then:
 ```Python
   # Python
-  import package_name
+  import depsek
 ```
