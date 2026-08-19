@@ -107,7 +107,6 @@ from depsek.responses import respond
 
 
 kwargs = """  # this is a string in YAML format
-  model: accounts/fireworks/models/glm-5p2
   max_tokens:   64000
   temperature:  1.0
 """
