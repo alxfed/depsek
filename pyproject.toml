@@ -3,7 +3,7 @@ requires = ["setuptools>=67.0"]
 build-backend = "setuptools.build_meta"
 [project]
 name = "depsek"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
     {name="Machina Ratiocinatrix", email="machina.ratio@gmail.com"},
     {name="Alexander Fedotov", email="alex.fedotov@aol.com"}
@@ -22,9 +22,6 @@ keywords = ["depsek"]
 dependencies = [
     "pyyaml == 6.0.3"
 ]
-
-[project.scripts]
-depsek = "depsek.cli:run"
 
 [project.urls]
 "Homepage" = "https://github.com/alxfed/depsek"
